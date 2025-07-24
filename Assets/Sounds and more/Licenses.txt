@@ -1,0 +1,9 @@
+Sound FX: 
+Wind, Fumarole
+
+From freesound.org, licensed under CC0 1.0 Universal (CC0 1.0) Public Domain Dedication.
+
+Textures:
+rocky_trail_disp_4k
+
+From polyhaven.com, licensed under CC0 1.0 Universal (CC0 1.0) Public Domain Dedication.
