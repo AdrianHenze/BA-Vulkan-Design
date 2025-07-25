@@ -1,14 +1,10 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Wegpunkt : MonoBehaviour
 {
     public RectTransform prefab;
-    public String bezeichner;
+    public string bezeichner;
     private RectTransform wegpunkt;
     private Transform player;
     private TextMeshProUGUI bezeichnung;
@@ -30,6 +26,13 @@ public class Wegpunkt : MonoBehaviour
     void FixedUpdate()
     {
         wegpunkt.position = transform.position + offset;
-        distanz.text = Vector3.Distance(player.position, transform.position).ToString("0") + " m";
+        float dist = Vector3.Distance(player.position, transform.position);
+        distanz.text = dist.ToString("0") + " m";
+        float t = Mathf.InverseLerp(1, 500, dist);
+        float scale = Mathf.Lerp(0.2f, 12, t);
+        wegpunkt.localScale = Vector3.one * scale;
+
+        if (dist < 20)
+            wegpunkt.gameObject.SetActive(false);
     }
 }
