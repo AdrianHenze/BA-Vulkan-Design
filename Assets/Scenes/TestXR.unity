@@ -10811,7 +10811,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 152414016}
   m_LocalRotation: {x: -0, y: -0.798584, z: -0, w: 0.6018834}
-  m_LocalPosition: {x: 0, y: 0, z: -124.26}
+  m_LocalPosition: {x: 0, y: 0, z: -122.86}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10820,8 +10820,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -105.99, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -189.8, y: 178.59999}
-  m_SizeDelta: {x: 20, y: 10}
+  m_AnchoredPosition: {x: -190.2, y: 178.59999}
+  m_SizeDelta: {x: 23.92, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &152414018
 MonoBehaviour:
@@ -10843,14 +10843,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-    eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-    no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-    amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-    et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-    sanctus est Lorem ipsum dolor sit amet.
+  m_text: "Vulkanische Fumarolen sind Oberfl\xE4chenph\xE4nomene hydrothermaler Systeme,
+    die h\xE4ufig mit aufkommendem oder abk\xFChlendem Vulkanismus in Verbindung
+    gebracht werden und gro\xDFe Mengen magmatischer bzw. hydrothermaler Gase freisetzen.
+    Sie sind dynamische Austrittsstellen gef\xE4hrlicher Gase.\n\nDie markanten Fumarolen
+    verteilen sich an der oberen, inneren Kraterwand, sto\xDFen wei\xDFen bis durchsichtigen
+    Wasserdampf aus und sind von gelblichen Schwefelablagerungen umgeben. Einige
+    markante Fumarolen weisen Temperaturen von \xFCber 100\xB0C auf. Sie k\xF6nnen
+    sogar Temperaturen von 670\xB0C erreichen. Fumarolen erw\xE4rmen und ver\xE4ndern
+    das Gestein, wodurch sich Hanginstabilit\xE4ten versch\xE4rfen."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -21146,7 +21147,7 @@ GameObject:
   - component: {fileID: 593062042}
   - component: {fileID: 593062041}
   m_Layer: 0
-  m_Name: Hintergrund
+  m_Name: Fumarolen Text BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21161,7 +21162,7 @@ RectTransform:
   m_GameObject: {fileID: 593062039}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.2}
-  m_LocalScale: {x: 24, y: 20, z: 0.1}
+  m_LocalScale: {x: 27, y: 20, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 152414017}
@@ -26310,7 +26311,7 @@ GameObject:
   - component: {fileID: 737782672}
   - component: {fileID: 737782671}
   m_Layer: 0
-  m_Name: Hintergrund (1)
+  m_Name: Hangrutsch Text BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26325,7 +26326,7 @@ RectTransform:
   m_GameObject: {fileID: 737782669}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.2}
-  m_LocalScale: {x: 48, y: 40, z: 0.1}
+  m_LocalScale: {x: 48, y: 50, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1717078186}
@@ -57041,7 +57042,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -742.14716, y: -80.4}
-  m_SizeDelta: {x: 40, y: 20}
+  m_SizeDelta: {x: 43.5, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1717078187
 MonoBehaviour:
@@ -57063,14 +57064,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-    eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-    no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-    amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-    et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-    sanctus est Lorem ipsum dolor sit amet.
+  m_text: "Die instabile Beschaffenheit von Vulkangeb\xE4uden kann zu strukturellem
+    Versagen jeglicher Gr\xF6\xDFe f\xFChren: vom kleinen Steinfall bis hin zu gigantischen
+    Hangrutschen mit einem Volumen von zehntausenden Kubikkilometern. St\xE4rkere
+    Aktivit\xE4t und Gesteinsbruchzonen erh\xF6hen die Hanginstabilit\xE4t.\n\nDer
+    Hang gliedert sich in Flanke und Hauptabbruchkante des Hangrutsches. Die Hauptabbruchkante
+    ist durch einen steilen Abfall und eine gro\xDFe H\xF6hendifferenz gekennzeichnet.
+    Der H\xF6henunterschied vor und nach dem Hangrutsch zeigt, dass der Ursprungsbereich
+    an H\xF6he verliert, w\xE4hrend der Kumulierungsbereich an H\xF6he gewinnt.\n\nEin
+    Hangrutsch an der nord\xF6stlichen Flanke des La Fossa Kegels st\xFCrzte ins
+    Meer und hat sogar einen kleinen Tsunami ausgel\xF6st."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
